@@ -81,6 +81,9 @@ body{
 
 
 }
+.main a img{
+    height: 70px;
+}
 .logo{
     text-align: center;
     padding: 10px;
@@ -325,8 +328,11 @@ body{
 .first_row{
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
 
-
+}
+.first_row div{
+    margin: 5px 5px;
 }
 .second_row{
  display: flex;
@@ -342,17 +348,17 @@ justify-content: center;
 
 .first_env{
     background: white;
-    padding: 10px;
+    padding: 26px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
 
 }
 .second_env{
     background: white;
-    padding: 6px;
+    padding: 12px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .wind{
     display: flex;
@@ -457,8 +463,11 @@ justify-content: center;
 }
 .parameters_parent{
     background: white;
-    overflow-x: scroll;;
- display: flex;
+    overflow-x: scroll;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 15px 5px;
+    border-radius: 16px;
+    display: flex;
 }
 .yt_embed{
     border: 3px solid black;
@@ -471,9 +480,10 @@ justify-content: center;
 .community{
     display: flex;
     overflow-x: scroll;
+    margin: 5px;
 }
 .community_heading{
-    background: #ffffff;
+
 display: flex;
     padding: 5px;
     font-family: "Ubuntu", sans-serif;
@@ -490,9 +500,11 @@ display: flex;
 .community_parent{
     display: flex;
     flex-direction: column;
-
+    margin: 15px 5px;
+    border-radius: 16px;
     background: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow-x: scroll;
 }
 .dashboard{
 

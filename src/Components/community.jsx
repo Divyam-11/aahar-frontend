@@ -11,10 +11,6 @@ return(<div className="community_parent">
         <YouTubeEmbed/>
         <YouTubeEmbed/>
         <YouTubeEmbed/>
-        <YouTubeEmbed/>
-        <YouTubeEmbed/>
-        <YouTubeEmbed/>
-        <YouTubeEmbed/>
     </div>
 
 </div>)

@@ -5,7 +5,7 @@ const MapEmbed = () => {
         <div className="field_map">
             <iframe
                 width="300"
-                height="270"
+                height="185"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=75.86070678935863%2C19.20742852680121%2C85.69347046123362%2C26.657277674217585&amp;layer=mapnik"
 
                 title="OpenStreetMap"

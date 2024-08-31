@@ -1,12 +1,14 @@
 import temperature from "../assets/images/temperature.svg"
-function parameter(){
+import {useEffect} from "react";
+function parameter({name,value}){
+
     return(<div className="parameter_card">
         <div className="parameter_name">
-            T2S
+            {name}
         </div>
         <img src={temperature}/>
         <div className="parameter_value">
-            100
+            {value}
         </div>
     </div>)
 }

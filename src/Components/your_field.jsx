@@ -4,9 +4,10 @@ import disease from "../assets/images/disease.svg"
 import crop from "../assets/images/crop.svg"
 import graph from "../assets/images/graph.svg"
 import MapEmbed from "./mapEmbed.jsx";
+import {Link} from "react-router-dom";
 function your_field(){
 return(<div className="field_main">
-    <div className="field_heading"><div>Your Field</div> <img src={left_arrow} alt=""/> </div>
+    <div className="field_heading">  <div> <Link to={"/datapage"}>Your Field</Link></div> <img src={left_arrow} alt=""/> </div>
     <div className="field_cards">
 
         <MapEmbed/>

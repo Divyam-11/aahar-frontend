@@ -1,5 +1,5 @@
 import temperature from "../assets/images/temperature.svg"
-import {useEffect} from "react";
+
 function parameter({name,value}){
 
     return(<div className="parameter_card">
